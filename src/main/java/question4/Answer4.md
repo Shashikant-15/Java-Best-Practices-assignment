@@ -12,5 +12,14 @@ processOrder(String customerCode, String CustomerName, String deliveryAddress,Bi
     * create helper classes to hold group of parameters (typically static member classes)
     * adapt the Builder pattern from object construction to method invocation.
 
+* Sometimes It's makes our code easier to read.
+   I personally find it much easier to read a "rules list" made up of an if structure that calls a
+    lot of methods with descriptive names than a structure that does it all in one method.
+
+ * It's more unit testable.
+         * You've split your problem into several smaller tasks that are individually very simple.
+         * The unit test collection would then be made up of a behavioral test suite that
+         * checks the paths through the master method and a collection of smaller test for each individual procedure.
+
         * On the other hand :-
           You can use any number of arguments in a function in java. There is no standard limit to have this number of argument in function in java. as a practice you should not have more than 4 arguments for a function but this is not the standard you can have any number of arguments.
